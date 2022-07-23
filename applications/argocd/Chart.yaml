@@ -1,0 +1,8 @@
+apiVersion: v2
+name: argo-cd
+version: 4.9.16 # Keeps parity with the official argo-cd chart https://hub.helm.sh/charts/argo/argo-cd
+description: Helm chart for custom ArgoCD deployment
+dependencies:
+  - name: argo-cd
+    version: 4.9.16
+    repository: https://argoproj.github.io/argo-helm
