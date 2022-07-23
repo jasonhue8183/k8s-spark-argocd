@@ -1,8 +1,8 @@
 project: default
 spec:
   source:
-    repoURL: 'https://github.com/empathyco/platform-spark-kubernetes-samples.git'
-    targetRevision: main
+    repoURL: 'https://github.com/jasonhue8183/k8s-spark-argocd.git'
+    targetRevision: master
   destination:
     server: 'https://kubernetes.default.svc'
   syncPolicy:

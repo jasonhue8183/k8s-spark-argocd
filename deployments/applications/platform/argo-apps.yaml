@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/empathyco/platform-spark-kubernetes-samples.git'
+    repoURL: 'https://github.com/jasonhue8183/k8s-spark-argocd.git'
     path: deployments/applications/platform
-    targetRevision: main
+    targetRevision: master
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: default
