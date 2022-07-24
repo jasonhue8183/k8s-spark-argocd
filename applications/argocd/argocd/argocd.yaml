@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/empathyco/platform-spark-kubernetes-samples.git'
+    repoURL: 'https://github.com/jasonhue8183/k8s-spark-argocd.git'
     path: applications/argocd
     targetRevision: master
   destination:
