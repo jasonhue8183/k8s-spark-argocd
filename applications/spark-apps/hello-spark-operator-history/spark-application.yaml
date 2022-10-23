@@ -4,8 +4,6 @@ metadata:
   name: spark-pi-history
   namespace: default
 spec:
-  securityContext: 
-    runAsUser: 0
   type: Scala
   mode: cluster
   image: "k8s-test/spark-prometheus:v1.6"
