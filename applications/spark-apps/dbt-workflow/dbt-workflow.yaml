@@ -12,7 +12,7 @@ spec:
     - name: dbt
       serviceAccountName: dbt-user
       container:
-        image: kube-dbt/dbt-kube-demo:latest
+        image: dbt-kube-demo:latest
         command: [dbt, run]
         volumeMounts:
           - name: dbt-profile
