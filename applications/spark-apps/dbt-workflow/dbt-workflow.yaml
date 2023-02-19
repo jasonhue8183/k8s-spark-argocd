@@ -13,6 +13,7 @@ spec:
       serviceAccountName: dbt-user
       container:
         image: dbt-kube-demo:latest
+        imagePullPolicy: Never
         command: [dbt, run]
         volumeMounts:
           - name: dbt-profile
